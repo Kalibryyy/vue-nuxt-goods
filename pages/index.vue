@@ -2,9 +2,7 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">
-        vue-nuxt-app
-      </h1>
+      <h1 class="title">vue-nuxt-app</h1>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -28,7 +26,13 @@
 </template>
 
 <script>
-export default {}
+export default {
+  methods: {
+    test() {
+      console.log("test");
+    },
+  },
+};
 </script>
 
 <style>
@@ -42,16 +46,8 @@ export default {}
 }
 
 .title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
