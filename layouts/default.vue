@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Cover />
     <Nuxt />
   </div>
 </template>
