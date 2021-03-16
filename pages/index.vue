@@ -1,11 +1,11 @@
 <template>
   <div class="container">
-    <!-- <Cover /> -->
+    <Card />
   </div>
 </template>
 
 <script>
-import Cover from '../components/Cover';
+import Cover from "../components/Cover";
 export default {
   components: { Cover },
   // methods: {
@@ -19,11 +19,7 @@ export default {
 <style>
 .container {
   margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  max-width: 1920px;
 }
 
 .title {

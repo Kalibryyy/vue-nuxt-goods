@@ -28,7 +28,6 @@ export default {
 <style scoped>
 .cover {
   background: #18191f;
-  max-width: 1920px;
   min-height: 650px;
 }
 
