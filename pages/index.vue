@@ -29,7 +29,7 @@
 export default {
   methods: {
     test() {
-      console.log("test");
+      console.log("test & test");
     },
   },
 };
